@@ -1,4 +1,4 @@
-ex04/argv.sh        if [ $# -eq 0 ]; then
+      if [ $# -eq 0 ]; then
     echo "NO arguments supplied"
 else
     for i in "$1" "$2" "$3"
