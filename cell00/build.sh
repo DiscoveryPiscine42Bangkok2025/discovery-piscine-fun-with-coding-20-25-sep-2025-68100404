@@ -1,4 +1,4 @@
-ex05/ build.sh  if [ $# -eq 0]; then
+  if [ $# -eq 0]; then
     echo "No arguments supplied"
 else
     for i in "$@"
